@@ -1,0 +1,124 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>66e5e2d9-5a34-4121-842d-9a97ee1da124</ProjectGuid>
+    <ApplicationPage>index.html</ApplicationPage>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+    <IsAutomaticGenerationPortNumber>True</IsAutomaticGenerationPortNumber>
+    <IsRunInSimulatror>False</IsRunInSimulatror>
+    <ApplicationTitle>testor1</ApplicationTitle>
+    <Name>testor1</Name>
+    <RootNamespace>testor1</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\Debug\</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>false</DebugSymbols>
+    <OutputPath>bin\Release\</OutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include="index.html" />
+    <Content Include="config.xml" />
+    <Content Include="css\ej.mobile.all.min.css" />
+    <Content Include="css\images\radialmenu\androidback.png" />
+    <Content Include="css\images\radialmenu\androidradial.png" />
+    <Content Include="css\images\radialmenu\flatback.png" />
+    <Content Include="css\images\radialmenu\flatradial.png" />
+    <Content Include="css\images\radialmenu\ios7back.png" />
+    <Content Include="css\images\radialmenu\ios7radial.png" />
+    <Content Include="css\images\radialmenu\windowsback.png" />
+    <Content Include="css\images\radialmenu\windowsradial.png" />
+    <Content Include="scripts\jquery.globalize.min.js" />
+    <Content Include="scripts\jquery-1.10.2.min.js" />
+    <Content Include="scripts\jsrender.min.js" />
+    <Content Include="scripts\ej.mobile.all.min.js" />
+    <Content Include="scripts\angular.min.js" />
+    <Content Include="scripts\knockout.min.js" />
+    <Content Include="scripts\ej.widget.angular.min.js" />
+    <Content Include="scripts\ej.widget.ko.min.js" />
+    <Content Include="scripts\plugin_interface.js" />
+    <Content Include="scripts\sample.js" />
+    <Content Include="css\images\waitingpopup\waitingpopup_android.GIF" />
+    <Content Include="css\images\waitingpopup\waitingpopup_ios7.gif" />
+    <Content Include="css\images\waitingpopup\waitingpopup_windows.GIF" />
+    <Content Include="css\images\waitingpopup\waitingpopup_winrt.GIF" />
+    <Content Include="css\sample.css" />
+    <Content Include="res\screens\wp8\SplashScreenImage.jpg" />
+    <Content Include="res\screens\android\hdpi-landscape.png" />
+    <Content Include="res\screens\android\hdpi-portrait.png" />
+    <Content Include="res\screens\android\ldpi-landscape.png" />
+    <Content Include="res\screens\android\ldpi-portrait.png" />
+    <Content Include="res\screens\android\mdpi-landscape.png" />
+    <Content Include="res\screens\android\mdpi-portrait.png" />
+    <Content Include="res\screens\android\xhdpi-landscape.png" />
+    <Content Include="res\screens\android\xhdpi-portrait.png" />
+    <Content Include="res\screens\ios\Default@2x~iphone.png" />
+    <Content Include="res\screens\ios\Default~iphone.png" />
+    <Content Include="res\screens\ios\Default-568h@2x~iphone.png" />
+    <Content Include="res\screens\ios\Default-667h.png" />
+    <Content Include="res\screens\ios\Default-736h.png" />
+    <Content Include="res\screens\ios\Default-Landscape@2x~ipad.png" />
+    <Content Include="res\screens\ios\Default-Landscape~ipad.png" />
+    <Content Include="res\screens\ios\Default-Landscape-736h.png" />
+    <Content Include="res\screens\ios\Default-Portrait@2x~ipad.png" />
+    <Content Include="res\screens\ios\Default-Portrait~ipad.png" />
+    <Content Include="res\icons\wp8\ApplicationIcon.png" />
+    <Content Include="res\icons\wp8\Background.png" />
+    <Content Include="res\icons\wp8\LargeTile.png" />
+    <Content Include="res\icons\android\hdpi.png" />
+    <Content Include="res\icons\android\ldpi.png" />
+    <Content Include="res\icons\android\mdpi.png" />
+    <Content Include="res\icons\android\xhdpi.png" />
+    <Content Include="res\icons\ios\icon.png" />
+    <Content Include="res\icons\ios\icon@2x.png" />
+    <Content Include="res\icons\ios\icon-40.png" />
+    <Content Include="res\icons\ios\icon-40@2x.png" />
+    <Content Include="res\icons\ios\icon-50.png" />
+    <Content Include="res\icons\ios\icon-50@2x.png" />
+    <Content Include="res\icons\ios\icon-60.png" />
+    <Content Include="res\icons\ios\icon-60@2x.png" />
+    <Content Include="res\icons\ios\icon-60@3x.png" />
+    <Content Include="res\icons\ios\icon-72.png" />
+    <Content Include="res\icons\ios\icon-72@2x.png" />
+    <Content Include="res\icons\ios\icon-76.png" />
+    <Content Include="res\icons\ios\icon-76@2x.png" />
+    <Content Include="res\icons\ios\icon-small.png" />
+    <Content Include="res\icons\ios\icon-small@2x.png" />
+    <Content Include="test11.html">
+      <SubType>Content</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="scripts\" />
+    <Folder Include="css\" />
+    <Folder Include="css\images\" />
+    <Folder Include="css\images\radialmenu\" />
+    <Folder Include="css\images\waitingpopup\" />
+    <Folder Include="res\" />
+    <Folder Include="res\icons\" />
+    <Folder Include="res\screens\" />
+    <Folder Include="res\screens\wp8\" />
+    <Folder Include="res\screens\ios\" />
+    <Folder Include="res\screens\android\" />
+    <Folder Include="res\icons\wp8\" />
+    <Folder Include="res\icons\ios\" />
+    <Folder Include="res\icons\android\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Target Name="Build">
+    <Message Text="Build JSProject '$(MSBuildProjectFile)':" Importance="high">
+    </Message>
+    <Message Text="Build Succeed '$(MSBuildProjectFile)'." Importance="high">
+    </Message>
+  </Target>
+  <Target Name="Rebuild" DependsOnTargets="Clean;Build">
+  </Target>
+  <Target Name="Clean">
+    <Message Text="Clean Succeed" Importance="high">
+    </Message>
+  </Target>
+</Project>
